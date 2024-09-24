@@ -14,7 +14,7 @@ const App = () => {
   return (
     <div className='mx-4 sm:mx-[10%] '>
       <Navbar></Navbar>
-      <Home></Home>
+      {/* <Home></Home> */}
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/doctors" element={<Doctor/>}/>
