@@ -6,9 +6,12 @@ export default {
   ],
   theme: {
     extend: {
-      // colors: {
-      //   // primary: "##437fc1",
-      // },
+      colors: {
+        primary: "##437fc1",
+      },
+        gridTemplateColumns:{
+          'auto':'repeat(auto-fill, minmax(200px, 1fr))'
+        }
     },
   },
   plugins: [],
