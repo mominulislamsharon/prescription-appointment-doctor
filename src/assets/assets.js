@@ -1,4 +1,5 @@
 import appointment_img from './appointment_img.png'
+import appointment_img1 from './appointment_img1.png'
 import header_img from './header_img.png'
 import headerBanner from './header-banner.jpg'
 import group_profiles from './group_profiles.png'
@@ -42,6 +43,7 @@ import Pediatricians from './Pediatricians.svg'
 
 export const assets = {
     appointment_img,
+    appointment_img1,
     header_img,
     headerBanner,
     group_profiles,
